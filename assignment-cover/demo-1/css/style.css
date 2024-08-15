@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Madimi+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.container {
+    width: 700px;
+    height: 960px;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+.head {
+    margin-top: 19px;
+}
+
+.head .head-img {
+    width: 95%;
+    display: block;
+    margin: 2px auto;
+}
+
+.assignment {
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.assignment .templete-field {
+    text-align: center;
+    width: 90%;
+    height: 51px;
+    font-weight: 100;
+    resize: inherit;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.assignment .assignment-text .templete-text {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+    margin: 0px auto -20px auto;
+}
+
+.course-code {
+    display: flex;
+    padding-left: 175px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: -26px;
+}
+
+.course-title {
+    display: flex;
+    padding-left: 207px;
+    text-align: center;
+    justify-content: center;
+}
+
+.submitted-to {
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+.submitted-to .submitted-to-text {
+    font-size: 25px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 41px;
+    text-decoration: underline;
+}
+
+.submitted-to-context {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitted-to-context input {
+    margin: 5px;
+    padding: 5px;
+    height: 25px;
+    text-align: center;
+}
+
+.submitted-to-context p {
+    margin: 10px 0px 48px 0px;
+}
+
+.submitted-by {
+    margin-top: -20px;
+    margin-left: 0;
+    margin-bottom: 1px;
+}
+
+.submitted-by-context {
+    padding-left: 25%;
+}
+
+.submitted-by .submitted-by-text {
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.submitted-by-context span {
+    height: 25px;
+    margin-left: 88px;
+}
+
+.submitted-by-context span p,
+.code-text,
+.title-text {
+    font-weight: 700;
+}
+
+.by {
+    display: flex;
+}
+
+/* Field CSS */
+.course-code .field {
+    box-sizing: border-box;
+    width: 47%;
+    height: 33px;
+    margin: 12px 0px 0px 12px;
+}
+
+.course-title .field {
+    box-sizing: border-box;
+    width: 73%;
+    height: 33px;
+    margin: 12px 0px 0px 12px;
+}
+
+.by .by-name {
+    width: 80%;
+}
+
+.by .by-id {
+    width: 90%;
+}
+
+.by .by-section {
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.by .by-program {
+    width: 60%;
+    text-transform: uppercase;
+}
+
+.by .by-serialNo {
+    width: 50%;
+}
+
+.by .by-date {
+    width: 60%;
+    font-weight: bold;
+}
+
+#align {
+    margin-left: 48px;
+    margin-top: 70px;
+}
+
+.field,
+.by {
+    border: none;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 5px;
+    background: transparent;
+}
+
+.field::placeholder {
+    color: #8f8f92;
+}
+
+/* Font */
+.submitted-by-text,
+.submitted-to-text {
+    font-family: "sans-serif";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+#btn {
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    background: linear-gradient(to right, #0300ba, #219ff3);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    display: block;
+    margin: 6px auto;
+}
+
+#btn:hover {
+    transform: scale(1.05);
+}
+
+footer p {
+    margin-top: 17px;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    color: red;
+}
+
+.submit {
+    position: relative;
+}
+
+.submit .watermark {
+    position: absolute;
+    top: -19%;
+    left: 21%;
+    right: 0;
+    z-index: -1;
+    /* Ensure the watermark is behind other elements */
+    opacity: 0.15;
+    /* Adjust the opacity as needed */
+    pointer-events: none;
+    /* Ensure the watermark doesn't interfere with mouse events */
+    width: 60%;
+    height: 60%;
+}
+
+.submitted-to {
+    position: relative;
+    /* Ensure the submitted-to div is a positioned element */
+}
+
+@media print {
+    #footer {
+        display: none;
+    }
+}
