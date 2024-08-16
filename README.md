@@ -34,7 +34,7 @@ Make professional and standardized cover pages for their assignments and lab rep
 - **Responsive Home Page** : This is a web page designed to automatically adjust its layout and content based on the device and screen size being used
 
 ## 5. Technologies Used
-- **Front-end** : HTML , CSS
+- **Front-end** : HTML , CSS, Bootstrap v4.4.1
 - **Back-end** : JavaScript
 - **Icons** : Font Awesome
 
