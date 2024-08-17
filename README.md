@@ -4,6 +4,24 @@
 
 The IUBAT Assignment & Lab Report Cover Page Builder is a tool designed to help students at the International University of Business Agriculture and Technology (IUBAT) create professional and standardized cover pages for their assignments and lab reports. The builder typically includes fields for course details, assignment title, student information, submission date, and instructor name, ensuring all necessary details are presented clearly and consistently.
 
+**Home Page**
+![home page.](./preview/1.png)
+
+**Assignment Cover Page**
+![assignment cover page.](./preview/2.png)
+
+**Lab Report Cover Page**
+![lab report cover page.](./preview/3.png)
+
+**Assignment Cover Page Preview**
+![assignment cover page preview.](./preview/4.png)
+
+**Assignment Cover Page Edit & Preview**
+![assignment cover page edit & preview.](./preview/5.png)
+
+**Lab Report Cover Page Edit & Preview**
+![lab report cover page edit & preview.](./preview/6.png)
+
 
 ## 2. Installation
 
