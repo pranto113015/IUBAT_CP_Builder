@@ -2,6 +2,10 @@ let button = document.getElementById("btn");
 let water = document.querySelector(".watermark");
 let footer = document.querySelector("#footer");
 
+// Dynamic Year
+document.getElementById("year").textContent = new Date().getFullYear();
+
+
 button.addEventListener("click", function () {
     // Hide the print button
 

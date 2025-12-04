@@ -250,7 +250,52 @@ footer a {
     /* Ensure the submitted-to div is a positioned element */
 }
 
+
+
+
+/* PRINT FIX SETTINGS */
+@page {
+    size: A4;
+    margin: 0;
+}
+
 @media print {
+
+    /* Footer, Back, Print buttons hide */
+    #footer,
+    #btn {
+        display: none !important;
+    }
+
+    /* Placeholder hide in print */
+    input::placeholder,
+    textarea::placeholder {
+        color: transparent !important;
+        opacity: 0 !important;
+    }
+
+
+
+    /* Container A4 exact height fix */
+    .container {
+        width: 700px !important;
+        height: 1020px !important;
+        margin-top: 50px !important;
+
+    }
+
+    /* Remove body margin/padding (extra white space prevent) */
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+
+    }
+
+    /* Watermark print properly */
+    .watermark {
+        opacity: 0.12 !important;
+    }
+
     #footer {
         display: none;
     }

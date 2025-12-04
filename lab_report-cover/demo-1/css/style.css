@@ -10,19 +10,23 @@
     margin: 0 auto;
     padding-bottom: 0px;
 }
+
 .head {
     margin-top: 0px;
 }
+
 .head .head-img {
     width: 93%;
     display: block;
     margin: 10px auto;
 }
+
 .department {
     text-align: center;
     display: flex;
     flex-direction: column;
 }
+
 .department p {
     margin-bottom: 0px;
 }
@@ -30,12 +34,14 @@
 .department input {
     text-align: center;
 }
+
 #lab-report {
     font-size: 30px;
     text-align: center;
     font-weight: 700;
     margin-top: -10px;
 }
+
 .code-title {
     display: block;
     width: 100%;
@@ -45,48 +51,63 @@
     resize: none;
     overflow-y: hidden;
 }
+
 code input.code-field,
 input.title-field {
     font-size: 20px !important;
     font-weight: 500;
     width: 100%;
 }
+
 .code-title .experiment-table table {
-    border-collapse: collapse; /* Merge borders */
-    width: 100%; /* Ensure table takes full width */
+    border-collapse: collapse;
+    /* Merge borders */
+    width: 100%;
+    /* Ensure table takes full width */
 }
+
 .experiment-table {
     width: 100%;
     height: 200px;
 }
+
 .experiment-table table {
     width: 100%;
     border-collapse: collapse;
     height: 5%;
 }
+
 .experiment-table .experiment-no {
     width: 20%;
 }
+
 .experiment-table .experiment-no p {
     margin-top: -35px;
 }
+
 .experiment-table .experiment-name p {
     margin-top: 0px;
 }
+
 .experiment-table #experiment-no-field {
-    text-align: center; /* Align text center */
+    text-align: center;
+    /* Align text center */
     width: 95%;
 }
+
 .experiment-table #experiment-name-field {
     width: 95%;
     resize: inherit;
     font-weight: 700;
     overflow-y: hidden;
 }
+
 .experiment-table th,
 .experiment-table td {
-    border: 2px solid rgb(0, 0, 0); /* Add border to table cells */
-    padding: 8px; /* Add padding for better spacing */
+    border: 2px solid rgb(0, 0, 0);
+    /* Add border to table cells */
+    padding: 8px;
+    /* Add padding for better spacing */
 }
 
 .experiment-table .ex-input input,
@@ -95,15 +116,18 @@ input.title-field {
     width: 100%;
     box-sizing: border-box;
 }
+
 .submit-table p {
     font-size: 18px;
 }
+
 .submit-table th {
     width: 60%;
 }
 
 .submit-table-by {
-    width: 70%; /* Adjusted width for the "Submitted By" section */
+    width: 70%;
+    /* Adjusted width for the "Submitted By" section */
 }
 
 .by-section {
@@ -112,9 +136,11 @@ input.title-field {
 }
 
 .submit-table-to {
-    width: 30%; /* Adjusted width for the "Submitted To" section */
+    width: 30%;
+    /* Adjusted width for the "Submitted To" section */
     text-align: left;
 }
+
 .submitted-to-text {
     text-align: center;
 }
@@ -128,6 +154,7 @@ input.title-field {
 .submit-table-date input {
     width: 50%;
 }
+
 .submit-table table {
     border-collapse: collapse;
     border: 1px solid rgb(0, 0, 0);
@@ -138,17 +165,21 @@ input.title-field {
     border: 1px solid rgb(0, 0, 0);
     position: relative;
 }
+
 .by p {
     margin-left: 5px;
     margin-right: 10px;
 }
+
 .level-term {
     display: flex;
 }
+
 #level {
     width: 15%;
     margin-left: 10px;
 }
+
 #term {
     width: 20%;
     margin-left: 10px;
@@ -167,18 +198,21 @@ input.title-field {
     top: -35px;
     left: 0;
 }
+
 .by {
     display: flex;
     height: 40px;
     font-size: 15px;
     align-items: center;
 }
+
 .field {
     font-size: 18px;
     border: none;
     background-color: transparent;
     margin: 7px;
 }
+
 .ex-field {
     font-size: 20px;
     font-weight: 800;
@@ -186,6 +220,7 @@ input.title-field {
     border: none;
     background-color: transparent;
 }
+
 .date-field {
     margin-left: 5px;
 }
@@ -202,6 +237,7 @@ input.title-field {
     display: block;
     margin: 8px auto;
 }
+
 #btn:hover {
     transform: scale(1.05);
 }
@@ -215,9 +251,12 @@ input.title-field {
     top: -5%;
     left: 20%;
     right: 0;
-    z-index: -1; /* Ensure the watermark is behind other elements */
-    opacity: 0.15; /* Adjust the opacity as needed */
-    pointer-events: none; /* Ensure the watermark doesn't interfere with mouse events */
+    z-index: -1;
+    /* Ensure the watermark is behind other elements */
+    opacity: 0.15;
+    /* Adjust the opacity as needed */
+    pointer-events: none;
+    /* Ensure the watermark doesn't interfere with mouse events */
     width: 60%;
     height: 60%;
 }
@@ -226,44 +265,95 @@ input.title-field {
     position: relative;
     margin-left: 5px;
 }
+
 .by-name {
     width: 75%;
 }
+
 .by-id {
     width: 75%;
 }
+
 .to-name {
     width: 97%;
 }
+
 .to-post {
     width: 97%;
 }
+
 .to-dept {
     width: 97%;
 }
+
 #footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 0px; /* Add padding to separate content from edges */
+    padding: 0px;
+    /* Add padding to separate content from edges */
     text-align: center;
 }
+
 #footer p {
     margin-top: 17px;
     text-align: center;
     font-size: 14px;
     font-family: sans-serif;
 }
+
 #footer a {
     text-decoration: none;
     color: red;
     font-size: 15px;
 }
+
+
+
+/* PRINT FIX SETTINGS */
+@page {
+    size: A4;
+    margin: 0;
+}
+
 @media print {
+
+    /* Footer, Back, Print buttons hide */
+    #footer,
+    #btn {
+        display: none !important;
+    }
+
+    /* Placeholder hide in print */
+    input::placeholder,
+    textarea::placeholder {
+        color: transparent !important;
+        opacity: 0 !important;
+    }
+
+
+
+    /* Container A4 exact height fix */
+    .container {
+        width: 700px !important;
+        height: 1020px !important;
+        margin-top: 50px !important;
+
+    }
+
+    /* Remove body margin/padding (extra white space prevent) */
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+
+    }
+
+    /* Watermark print properly */
+    .watermark {
+        opacity: 0.12 !important;
+    }
+
     #footer {
         display: none;
-    }
-    .container {
-        padding-bottom: 0px;
     }
 }

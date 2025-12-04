@@ -69,6 +69,7 @@
 .submitted-to {
     margin-top: -20px;
     margin-left: 5px;
+    margin-bottom: 20px;
 }
 
 .submitted-to .submitted-to-text {
@@ -93,9 +94,9 @@
     text-align: center;
 }
 
-.submitted-to-context p {
+/* .submitted-to-context p {
     margin: 10px 0px 48px 0px;
-}
+} */
 
 .submitted-by {
     margin-top: -20px;
@@ -256,7 +257,55 @@ footer a {
     /* Ensure the submitted-to div is a positioned element */
 }
 
+/* 
+
+
+
+
+/* PRINT FIX SETTINGS */
+@page {
+    size: A4;
+    margin: 0;
+}
+
 @media print {
+
+    /* Footer, Back, Print buttons hide */
+    #footer,
+    #btn {
+        display: none !important;
+    }
+
+    /* Placeholder hide in print */
+    input::placeholder,
+    textarea::placeholder {
+        color: transparent !important;
+        opacity: 0 !important;
+    }
+
+
+
+    /* Container A4 exact height fix */
+    .container {
+        width: 700px !important;
+        height: 1020px !important;
+        margin: 0 auto !important;
+        margin-top: 50px !important;
+
+    }
+
+    /* Remove body margin/padding (extra white space prevent) */
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+
+    }
+
+    /* Watermark print properly */
+    .watermark {
+        opacity: 0.12 !important;
+    }
+
     #footer {
         display: none;
     }

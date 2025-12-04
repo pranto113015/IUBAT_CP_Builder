@@ -2,22 +2,26 @@ let button = document.getElementById("btn");
 let water = document.querySelector(".watermark");
 let footer = document.querySelector("#footer");
 
+// Dynamic Year
+document.getElementById("year").textContent = new Date().getFullYear();
+
+
 button.addEventListener("click", function () {
     // Hide the print button
 
-    button.style.display = "none";
-    footer.style.display = "none";
+    // button.style.display = "none";
+    // footer.style.display = "none";
 
 
-    
+
     // Print the page
     window.print();
 
 
 
     // Show the print button
-    button.style.display = "block";
-    footer.style.display = "block";
+    // button.style.display = "block";
+    // footer.style.display = "block";
 });
 
 document.addEventListener("DOMContentLoaded", function () {
